@@ -121,7 +121,7 @@ body {
 
 .form-control.error small {
     visibility: visible;
-    color: #bd1806;
+    color: #ff1900;;
 }
 
 @media (max-width: 427px) {
