@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://icons8.com/icon/x2eeHUlnnBvt/form -->
+    <link rel="shortcut icon" href="./assets/favicon/icons8-form-96px.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300&display=swap" rel="stylesheet">
+    <title>Nova conta | Form</title>
+</head>
+<body>
+    <div class="container-all">
+        <div class="container">
+            <div class="header-form">
+                <h2 class="titleform" style="color: #000;">Criar uma conta</h2>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Nome de usuário</label>
+                    <input type="text" id="username" placeholder="Digite seu nome de usuário">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Preenchimento obrigatório</small>
+                </div>
+    
+                <div class="form-control">
+                    <label for="useremail">Email</label>
+                    <input type="text" id="useremail" placeholder="Digite seu email">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Preenchimento obrigatório</small>
+                </div>
+    
+                <div class="form-control">
+                    <label for="userpassword">Senha</label>
+                    <input type="password" id="userpassword" placeholder="Digite sua senha">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Preenchimento obrigatório</small>
+                </div>
+    
+                <div class="form-control">
+                    <label for="passwordconfirmation">Confirmar senha</label>
+                    <input type="password" id="passwordconfirmation" placeholder="Digite novamente a senha">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Preenchimento obrigatório</small>
+                </div>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/6489421af0.js" crossorigin="anonymous"></script>
+    <script src="./script-form.js"></script>
+</body>
+</html>
